@@ -39,3 +39,22 @@ section#mobile {
     height: 500px;
     width: 268px;
 }
+
+#redes-sociais {
+    text-align: right;
+}
+
+div img {
+    height: 60px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+div img:hover {
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+    box-sizing: border-box;
+    transform: translate(-10%, -10%);
+}
+
